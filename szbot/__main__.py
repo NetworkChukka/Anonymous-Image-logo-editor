@@ -56,7 +56,7 @@ async def start(bot, update):
 
 📊 <b>Users</b> : {total_users}
 
-©2021<a href=\"https://t.me/szteambots\"> sz Team Bots <sz/>✌️</a> 💐
+©2021<a href=\"https://t.me/anonymousbotz\"> Anonymous Team Bots <>✌️</a> 💐
 """
     await update.reply_photo(
                     photo=(random.choice(START_IMG)),
@@ -65,7 +65,7 @@ async def start(bot, update):
                     parse_mode="Html")
 
     
-@sz.on_message(filters.command(["start", f"start@szimagebot"]) & ~filters.private & ~filters.channel)
+@sz.on_message(filters.command(["start", f"start@anonylogo_bot"]) & ~filters.private & ~filters.channel)
 async def gstart(bot, update):
     await AddUserToDatabase(bot, update)
     FSub = await ForceSub(bot, update)
@@ -77,7 +77,7 @@ async def gstart(bot, update):
                     parse_mode="Html",
                     disable_web_page_preview=True)
 
-@sz.on_message(filters.command(["help", f"help@szimagebot"]))
+@sz.on_message(filters.command(["help", f"help@anonylogo_bot"]))
 async def help(bot, update):
     await AddUserToDatabase(bot, update)
     FSub = await ForceSub(bot, update)
@@ -89,7 +89,7 @@ async def help(bot, update):
         disable_web_page_preview=True,
         reply_markup=CLOSE_BTN) 
 
-@sz.on_message(filters.command(["about", f"about@szimagebot"]))
+@sz.on_message(filters.command(["about", f"about@anonylogo_bot"]))
 async def about(bot, update):
     await AddUserToDatabase(bot, update)
     FSub = await ForceSub(bot, update)
@@ -122,7 +122,7 @@ async def show_status_count(_, bot: Message):
         quote=True
     )       
     
-@sz.on_message(filters.command(["ping", f"ping@szimagebot"]))
+@sz.on_message(filters.command(["ping", f"ping@anonylogo_bot"]))
 async def ping(bot, update):
     await AddUserToDatabase(bot, update)
     FSub = await ForceSub(bot, update)
@@ -137,13 +137,7 @@ async def ping(bot, update):
 sz.start()
 tele.start(bot_token=BOT_TOKEN)
 LOGGER.info("""
-   _____ ______  ____        _       
-  / ____|___  / |  _ \      | |      
- | (___    / /  | |_) | ___ | |_ ___ 
-  \___ \  / /   |  _ < / _ \| __/ __|
-  ____) |/ /__  | |_) | (_) | |_\__ |
- |_____//_____| |____/ \___/ \__|___/
-                                     
-© This bot was created by SZ Bots and If you've clone this, you must keep this notice.                                     
+                                 
+© This bot was created by Anonymous Botz and If you've clone this, you must keep this notice.                                     
 """)
 idle()

@@ -72,7 +72,7 @@ async def photo(client: Client, message: Message):
     try:
         await client.send_message(
             chat_id=message.chat.id,
-            text="☘️ Select your required mode from below!✅\n\n◇───────────────◇\n🔥 Designed by : @szimagebot\n🌷 Requestor : \n⚡️ Powered By   : 【SZ™】\n\n◇───────────────◇\n©2021【SZ™】 team  All Right Reserved⚠️️ㅤ",
+            text="☘️ Select your required mode from below!✅\n\n◇───────────────◇\n🔥 Designed by : @anonylogo_bot\n🌷 Requestor : \n⚡️ Powered By   : Anonymous Devalopers\n\n◇───────────────◇\n©2022 Anonymous Devalopers  team  All Right Reserved⚠️️ㅤ",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [

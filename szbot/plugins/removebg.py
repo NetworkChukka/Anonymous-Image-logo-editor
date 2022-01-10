@@ -41,20 +41,23 @@ async def is_app_admin(chat, user):
 
 TEXT=f"""🗑️** Background removed Successfully**✅
 ◇───────────────◇
-🔥 **Removed  by** : [ 🎨 Imᥲgᥱ Tooᥣs Bot](https://t.me/szimagebot)
-⚡️ **Powered By**  : `【SZ™】`
+🔥 **Removed  by** : [ Anonymous-Image-logo-editor Bot](https://t.me/anonylogo_bot)
+⚡️ **Powered By**  : `Anonymous Devalopers`
 ◇───────────────◇
-©2021[【SZ™】 team ](https://t.me/szteambots) **All Right Reserved**⚠️️
+©2022[Anonymous Devalopers team ](https://t.me/anonymousbotz) **All Right Reserved**⚠️️
 """    
     
     
 BUTTONS = InlineKeyboardMarkup(	
       [	
         [	
-        InlineKeyboardButton(text="➕ Add me to your group ➕", url=f"http://t.me/szimagebot?startgroup=botstart") 	
+        InlineKeyboardButton(text="➕ Add me to your group ➕", url=f"http://t.me/anonylogo_bot?startgroup=botstart") 	
         ],	
         [	
-         InlineKeyboardButton(text="🗣️Join my updates ", url=f"https://t.me/sszteambots") 	
+         InlineKeyboardButton(text="🗣️Join my updates ", url=f"https://t.me/anonymousbotz") 	
+        ],
+        [
+         InlineKeyboardButton(text="🔰Contact My Master🔰", url=f"https://t.me/networkchukka") 
         ]	
       ]      	
     )    

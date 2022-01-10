@@ -16,10 +16,13 @@ import shutil
 repmark = InlineKeyboardMarkup(
       [
         [
-        InlineKeyboardButton(text="➕ Add me to your group ➕", url=f"http://t.me/szimagebot?startgroup=botstart") 
+        InlineKeyboardButton(text="➕ Add me to your group ➕", url=f"http://t.me/anonylogo_bot?startgroup=botstart") 
         ],
         [
-         InlineKeyboardButton(text="🗣️Join my updates ", url=f"https://t.me/szteambots") 
+         InlineKeyboardButton(text="🗣️Join my updates ", url=f"https://t.me/anonymousbotz") 
+        ],
+        [
+         InlineKeyboardButton(text="🔰Contact My Master🔰", url=f"https://t.me/networkchukka") 
         ]
       ]      
     )
@@ -29,7 +32,7 @@ def nospace(s):
     s = re.sub(r"\s+", '%20', s)
 
     return s
-@sz.on_message(filters.command(["logo", f"logo@szimagebot"]))
+@sz.on_message(filters.command(["logo", f"logo@anonylogo_bot"]))
 async def make_logo(_, message):
     await AddUserToDatabase(_, message)
     FSub = await ForceSub(_, message)
@@ -38,11 +41,11 @@ async def make_logo(_, message):
     imgcaption = f"""
 ☘️** Logo Created Successfully**✅
 ◇───────────────◇
-🔥 **Created by** : @szimagebot
+🔥 **Created by** : @anonylogo_bot
 🌷 **Requestor** : {message.from_user.mention}
-⚡️ **Powered By **  : `【SZ™】`
+⚡️ **Powered By **  : `Anonymous Devalopers`
 ◇───────────────◇
-©2021[【SZ™】 team ](https://t.me/szteambots) **All Right Reserved**⚠️️
+©2022 Anonymous Devaloper team ](https://t.me/anonymousbotz) **All Right Reserved**⚠️️
 """
     if len(message.command) < 2:
             return await message.reply_text("Please give a text to make logo")
@@ -94,11 +97,11 @@ async def logomake(_, message: Message):
     imgcaption = f"""
 ☘️** Logo Created Successfully**✅
 ◇───────────────◇
-🔥 **Created by** : @szimagebot
+🔥 **Created by** : @anonylogo_bot
 🌷 **Requestor** : {message.from_user.mention}
-⚡️ **Powered By **  : `【SZ™】`
+⚡️ **Powered By **  : `Anonymous Devalopers`
 ◇───────────────◇
-©2021[【SZ™】 team ](https://t.me/szteambots) **All Right Reserved**⚠️️
+©2022 Anonymous Devaloper team ](https://t.me/anonymousbotz) **All Right Reserved**⚠️️
 """
     img.save(szlogo, "png")
     await message.reply_photo(
@@ -138,11 +141,11 @@ async def logomake(_, message: Message):
     imgcaption=f"""
 ☘️** Logo Created Successfully**✅
 ◇───────────────◇
-🔥 **Created by** : @szimagebot
+🔥 **Created by** : @anonylogo_bot
 🌷 **Requestor** : {message.from_user.mention}
-⚡️ **Powered By **  : `【SZ™】`
+⚡️ **Powered By **  : `Anonymous Devalopers`
 ◇───────────────◇
-©2021[【SZ™】 team ](https://t.me/szteambots) **All Right Reserved**⚠️️
+©2022 Anonymous Devaloper team ](https://t.me/anonymousbotz) **All Right Reserved**⚠️️
 """
     img.save(szlogo, "png")
     await message.reply_photo(
@@ -179,11 +182,11 @@ async def logomake(_, message: Message):
     imgcaption=f"""
 ☘️** Logo Created Successfully**✅
 ◇───────────────◇
-🔥 **Created by** : @szimagebot
+🔥 **Created by** : @anonylogo_bot
 🌷 **Requestor** : {message.from_user.mention}
-⚡️ **Powered By **  : `【SZ™】`
+⚡️ **Powered By **  : `Anonymous Devalopers`
 ◇───────────────◇
-©2021[【SZ™】 team ](https://t.me/szteambots) **All Right Reserved**⚠️️
+©2022 Anonymous Devaloper team ](https://t.me/anonymousbotz) **All Right Reserved**⚠️️
 """
     img.save(szlogo, "png")
     await message.reply_photo(
