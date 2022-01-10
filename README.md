@@ -1,7 +1,7 @@
-<h1 align = "center"> ❝🎨𝗜𝗺𝗮𝗴ᥱ 𝗧𝗼𝗼ᥣ𝘀 𝗕𝗼𝘁
+<h1 align = "center"> ❝🎨Anonymous 𝗜𝗺𝗮𝗴ᥱ 𝗧𝗼𝗼ᥣ𝘀 𝗕𝗼𝘁
 𝗜 𝘀𝗽𝗲𝗰𝗶𝗮𝗹𝗶𝘇𝗲 𝗳𝗼𝗿 𝗹𝗼𝗴𝗼 𝗱𝗲𝘀𝗶𝗴𝗻  𝗦𝗲𝗿𝘃𝗶𝗰𝗲𝘀 𝘄𝗶𝘁𝗵 𝗔𝗺𝗮𝘇𝗶𝗻𝗴 𝗹𝗼𝗴𝗼  𝗖𝗿𝗲𝗮𝘁𝗼𝗿 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 & 𝗺𝗼𝗿𝗲 𝘁𝗼𝗼𝗹𝘀💐❞ </h1>
 
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=szbots&repo=Image-Tool&theme=dark)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=NetworkChukka&repo=Anonymous-Image-logo-editor&theme=dark)
 
 ## 🌟 Don't forget to star this repo if you liked it.
 
@@ -10,9 +10,7 @@
  ![TG Channel](https://img.shields.io/badge/dynamic/json?color=blue&label=szteam%20@szteambots&query=subscribers&url=https%3A%2F%2Fonline-users-api.up.railway.app%2Fcheck%3Fchat%3Dszteambots&logo=telegram)
 ![TG Chat](https://img.shields.io/badge/dynamic/json?color=blue&label=support%20@slbotzone&query=members&url=https%3A%2F%2Fonline-users-api.up.railway.app%2Fcheck%3Fchat%3Dslbotzone&logo=telegram) 
 
-# 💵 Payment Method
-- 💎Ltc coin ``` LhCj3H8abLuSb81B9ojJYpHPkLz6xCYayn```
-- 💎Bit Coin ``` 17fdwXfHcj3Yeu7LrswnQRX15RzSK5bXER ```
+
 
 ## ⚙️ Bot Coder [Tinura Dinith](https://t.me/boltbacker)
 
